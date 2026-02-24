@@ -11,8 +11,8 @@ export const site = {
   name: "傲雪の",
   desc: "无聊的一天搭配神经的我～",
   url: "https://b.oxue.de",
-  avatar: "https://i0.hdslb.com/bfs/face/469e8938dc06152c8671b38d86aa0bf87d717cb0.jpg",
-  email: "msbyshens@outlook.com",
+  avatar: "https://obb.cc.cd/assets/favicon/1.ico",
+  siteshot: "https://obb.cc.cd/assets/img/siteshot.webp",
 };
 
 {/* ========= 注意事项 ========== */}
@@ -57,6 +57,7 @@ export const notes = [
             { label: "站点描述", value: site.desc },
             { label: "站点链接", value: site.url },
             { label: "站点图标", value: site.avatar },
+            { label: "站点截图", value: site.siteshot },
           ].map((item) => (
             <div class="flex items-center justify-between gap-2 rounded-lg bg-black/5 dark:bg-white/5 px-3 py-2">
               <div class="min-w-0">
@@ -107,7 +108,7 @@ export const notes = [
               <p class="font-semibold text-sm mb-1">评论区留言/<a href="mailto:msbyshens@outlook.com">给我邮件</a></p>
               <p class="text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed">照申请模板填写贵站友链信息，并在评论区留言或给我邮件</p>
               <div class="relative rounded-lg bg-black/5 dark:bg-white/5 p-4 pr-10 text-[0.7rem] leading-relaxed overflow-x-auto whitespace-pre">
-                <button onclick="navigator.clipboard.writeText('```yaml\ntitle: &quot;&quot;,\nimgurl: &quot;&quot;,\ndesc: &quot;&quot;,\nsiteurl: &quot;&quot;,\n```');this.querySelectorAll('svg')[0].classList.add('hidden');this.querySelectorAll('svg')[1].classList.remove('hidden');setTimeout(()=>{this.querySelectorAll('svg')[0].classList.remove('hidden');this.querySelectorAll('svg')[1].classList.add('hidden')},1500)" class="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-md bg-black/10 dark:bg-white/10 text-(--btn-content) hover:opacity-80 transition-opacity cursor-pointer">
+                <button onclick="navigator.clipboard.writeText('\ntitle: &quot;&quot;,\nimgurl: &quot;&quot;,\ndesc: &quot;&quot;,\nsiteurl: &quot;&quot;,');this.querySelectorAll('svg')[0].classList.add('hidden');this.querySelectorAll('svg')[1].classList.remove('hidden');setTimeout(()=>{this.querySelectorAll('svg')[0].classList.remove('hidden');this.querySelectorAll('svg')[1].classList.add('hidden')},1500)" class="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-md bg-black/10 dark:bg-white/10 text-(--btn-content) hover:opacity-80 transition-opacity cursor-pointer">
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
                   <svg class="w-3.5 h-3.5 hidden text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                 </button>
@@ -149,3 +150,6 @@ export const notes = [
     </div>
   </div>
 </div>
+
+> [!TIP] 
+> 贵站如需本站其他格式的**站点图标**，可以引用[此链接](https://obb.cc.cd/assets/favicon/)中的资源
