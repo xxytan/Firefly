@@ -6,7 +6,7 @@ export const profileConfig: ProfileConfig = {
 	// 1. public 目录（以 "/" 开头，不优化）："/assets/images/avatar.webp"
 	// 2. src 目录（不以 "/" 开头，自动优化但会增加构建时间，推荐）："assets/images/avatar.webp"
 	// 3. 远程 URL："https://example.com/avatar.jpg"
-	avatar: "https://i0.hdslb.com/bfs/face/469e8938dc06152c8671b38d86aa0bf87d717cb0.jpg",
+	avatar: "https://q1.qlogo.cn/g?b=qq&nk=2814836281&s=640",
 
 	// 名字
 	name: "Kentural",
