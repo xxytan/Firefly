@@ -214,7 +214,7 @@ comment: false
 
 ### 仅测试
 
-<iframe src="https://xytan-my.sharepoint.com/personal/ax_xytan_onmicrosoft_com/_layouts/15/embed.aspx?UniqueId=fa4a76af-5c15-4d01-a235-d61a3a3acc8c" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Flyme10_1202_Flame_Ruyue"></iframe>
+<iframe src="https://xytan-my.sharepoint.com/personal/ax_xytan_onmicrosoft_com/_layouts/15/embed.aspx?UniqueId=f27837a2-910a-43cb-a84f-80c7afb4fc55" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="gift.tar.gz"></iframe>
 
 [1]: /posts/hexo-d-termux/
 [2]: /posts/hexo-to-pages/
