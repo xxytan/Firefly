@@ -212,6 +212,10 @@ comment: false
 ## 其他
 - `xx`、`……`、`?`表示该处资源站长忘记了或遗失
 
+### 仅测试
+
+<iframe src="https://xytan-my.sharepoint.com/personal/ax_xytan_onmicrosoft_com/_layouts/15/embed.aspx?UniqueId=fa4a76af-5c15-4d01-a235-d61a3a3acc8c" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Flyme10_1202_Flame_Ruyue"></iframe>
+
 [1]: /posts/hexo-d-termux/
 [2]: /posts/hexo-to-pages/
 [3]: https://github.com/xxytan/ex-blogs/blob/next/source/_posts/re-ms-mfa.md
