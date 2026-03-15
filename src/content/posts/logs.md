@@ -11,12 +11,12 @@ comment: false
 
 ## 2025年
 
-- 8.15
+- 8.13
 
 站点诞生，但未上线\
 框架为Hexo，使用Fluid主题
 
-- 8.16
+- 8.14
 
 借助*hexo-deployer-git*及**Cloudflare Pages**，该站**成功上线**🎉
 
