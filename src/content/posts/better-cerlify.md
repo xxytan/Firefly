@@ -85,15 +85,17 @@ category: 教程
 - 优选[Vercel](#vercel)时：
   - 如果你优选的项目是需要**记录访问者IP**（评论系统、统计系统…）的，使用`vercel-cname.xingpingcn.top`这个优选域名会导致IP全跑到CDN节点（台湾)  
     解决方法就是使用[官方的优选域名](#优选域名)
-- cf pages的优选效果远远差于cf workers，在条件支持的情况下，我们推荐将项目部署到**cf workers**
+- 自Cloudflare更新使用条款，**优选IP为违规行为**，后果包括但不限于封禁账号
 - Netlify的IP在部分地区会被阻断，所以尽管效果优选效果看起来很好，加载速度还是会有些慢
 
 ### 优选域名
 - CF Workers & Pages:
   - `www.shopify.com` *推荐*
+  - `mfa.gov.ua` 
   - `www.visa.cn`
   - `*.tencentapp.cn` *推荐*
-  - `*.cf.090227.xyz`
+  - `*.bilibiliapp.cn`
+  - `*.cf.090227.xyz` *推荐*
 - Vercel:
   - `vercel-cname.xingpingcn.top` *推荐*
   - `cname.vercel-dns.com` *官方；仅必要时*
@@ -105,7 +107,6 @@ category: 教程
 > [邢平cn](https://xingpingcn.top)、[CMLiu](https://blog.cmliussss.com)、ktff
 
 ---
-[^1]: > 华为云仅为一个例子，其他（阿里云、DNSPod）的也能实现此效果
-      
+[^1]: > 华为云仅为示范，其他如阿里云、DNSPod等DNS服务商也能实现此效果      
       若无法注册国际版请使用国际互联网环境后再试
       若您的域名已备案也可用国内版
