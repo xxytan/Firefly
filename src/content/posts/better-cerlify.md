@@ -62,7 +62,7 @@ category: 教程
 
 :::note
 测速站为[ITDOG](https://www.itdog.cn)  
-受一些因素影响，不可能所有时刻都是如此的效果
+测速效果受一定因素影响
 :::
 
 <p align="right"><strong>CF Workers</strong></p>
@@ -108,5 +108,6 @@ category: 教程
 
 ---
 [^1]: > 华为云仅为示范，其他如阿里云、DNSPod等DNS服务商也能实现此效果      
+      
       若无法注册国际版请使用国际互联网环境后再试
       若您的域名已备案也可用国内版
