@@ -96,6 +96,7 @@ category: 教程
   - `*.tencentapp.cn` *推荐*
   - `*.bilibiliapp.cn`
   - `*.cf.090227.xyz` *推荐*
+  - `224322.xyz` **站长维护**
 - Vercel:
   - `vercel-cname.xingpingcn.top` *推荐*
   - `cname.vercel-dns.com` *官方；仅必要时*
