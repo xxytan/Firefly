@@ -45,9 +45,9 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "江鸟博客",
-		imgurl: "https://blog.azucat.eu/favicon/icon.png",
-		desc: "天有不公~地有苍生~万般万般年月过~落日朱门满地红~",
-		siteurl: "https://blog.azucat.eu",
+		imgurl: "https://azucat.blog/favicon/icon.png",
+		desc: "天有不公，地有苍生，万般万般年月过，落日朱门满地红",
+		siteurl: "https://azucat.blog",
 		tags: ["朋友"],
 		weight: 4,
 		enabled: true,
