@@ -25,13 +25,12 @@
 
 ## 浏览提示
 1. 部分文章中含有脚注（即注释），需搭配阅读
-2. 评论系统（Twikoo）部署在Netlify上，有概率会被GFW屏蔽❌，若遇到**评论失败: 0**的错误提示请**使用国际互联网**🪜后再试
-3. 如需修改**评论区头像**，请参阅[Twikoo文档](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9%E5%A4%B4%E5%83%8F)
+2. 如需修改**评论区头像**，请参阅[Twikoo文档](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9%E5%A4%B4%E5%83%8F)
 
 ## 其他
 - 本站由**Clarity**提供站点统计服务
 - 本站由[Meting-API](https://meta.oxue.de)提供在线音乐播放服务
-- 本站由[Twikoo](https://twikoo.oxue.de/)提供文章评论服务
+- 本站由[Twikoo](https://api.zeas.top/twikoo/)提供文章评论服务
 - 本站已加入[萌备](https://icp.gov.moe/?keyword=20252235)
 - 本站已加入[中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)  
 - 本站已加入[BlogFinder](https://bf.zzxworld.com/s/1773)

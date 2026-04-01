@@ -6,7 +6,7 @@ tags: ["萌备", "美化", "教程"]
 category: 教程
 ---
 # 前言
-你也想让你的萌备用上漂亮的**徽章**吗![My own MoeICP badge](https://obb.cc.cd/assets/img/moeicp.svg)
+你也想让你的萌备用上漂亮的**徽章**吗![My own MoeICP badge](https://hi.zeas.top/assets/img/moeicp.svg)
 此篇文章我将介绍两种方法来给你的萌备用上美丽的徽章
 
 # 开始
