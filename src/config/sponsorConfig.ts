@@ -14,6 +14,9 @@ export const sponsorConfig: SponsorConfig = {
 	// 是否显示赞助者列表
 	showSponsorsList: false,
 
+	// 是否显示评论区，需要先在commentConfig.ts启用评论系统
+	showComment: false,
+
 	// 是否在文章详情页底部显示赞助按钮
 	showButtonInPost: true,
 
@@ -45,7 +48,6 @@ export const sponsorConfig: SponsorConfig = {
 			name: "夏叶",
 			amount: "¥50",
 			date: "2025-10-01",
-			message: "感谢分享！",
 		},
 
 		// 示例：匿名赞助者

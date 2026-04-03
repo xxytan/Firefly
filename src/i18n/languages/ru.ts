@@ -20,6 +20,7 @@ export const ru: Translation = {
 	[Key.recentPosts]: "Последние посты",
 	[Key.postList]: "Список постов",
 	[Key.tableOfContents]: "Содержание",
+	[Key.tocEmpty]: "На этой странице нет оглавления",
 	[Key.music]: "Музыка",
 	[Key.musicNoPlaying]: "Ничего не воспроизводится",
 	[Key.musicLyrics]: "Текст песни",
@@ -201,6 +202,15 @@ export const ru: Translation = {
 	// Закреплено
 	[Key.pinned]: "Закреплено",
 
+	// Похожие статьи
+	[Key.relatedPosts]: "Похожие статьи",
+	[Key.randomPosts]: "Случайные статьи",
+	[Key.smartRecommend]: "Умный",
+	[Key.randomRecommend]: "Случайный",
+
+	// Зашифровано
+	[Key.postEncrypted]: "Эта статья зашифрована",
+
 	// Режим обоев
 	[Key.wallpaperMode]: "Режим обоев",
 	[Key.wallpaperBannerMode]: "Баннер обои",
@@ -210,7 +220,12 @@ export const ru: Translation = {
 	// Настройки баннера
 	[Key.bannerSettings]: "Настройки баннера",
 	[Key.bannerTitle]: "Заголовок главного баннера",
+	[Key.bannerCarousel]: "Карусель баннера",
 	[Key.wavesAnimation]: "Анимация волн",
+	[Key.overlaySettings]: "Настройки прозрачности",
+	[Key.overlayOpacity]: "Прозрачность обоев",
+	[Key.overlayBlur]: "Размытие фона",
+	[Key.overlayCardOpacity]: "Прозрачность карточек",
 
 	// Макет списка сообщений
 	[Key.postListLayout]: "Макет списка сообщений",
@@ -280,8 +295,8 @@ export const ru: Translation = {
 	[Key.scanToRead]: "Сканируйте, чтобы прочитать",
 
 	// Конфигурация блоков коллапсируемого кода
-	[Key.codeCollapsibleShowMore]: "Показать больше",
-	[Key.codeCollapsibleShowLess]: "Показать меньше",
+	[Key.codeCollapsibleShowMore]: "Развернуть",
+	[Key.codeCollapsibleShowLess]: "Свернуть",
 	[Key.codeCollapsibleExpanded]: "Блок кода развернут",
 	[Key.codeCollapsibleCollapsed]: "Блок кода свернут",
 
@@ -292,4 +307,15 @@ export const ru: Translation = {
 	[Key.galleryAlbums]: "альбомов",
 	[Key.galleryNoAlbums]: "Пока нет альбомов",
 	[Key.galleryBackToAlbums]: "Вернуться к альбомам",
+
+	// Защита паролем
+	[Key.passwordProtected]: "Защищено паролем",
+	[Key.passwordProtectedDesc]:
+		"Эта статья защищена паролем. Пожалуйста, введите пароль для просмотра содержимого.",
+	[Key.passwordHint]: "Подсказка",
+	[Key.passwordPlaceholder]: "Введите пароль",
+	[Key.passwordSubmit]: "Разблокировать",
+	[Key.passwordError]: "Неверный пароль, попробуйте снова.",
+	[Key.passwordProtectedRss]:
+		"Эта статья зашифрована. Пожалуйста, посетите сайт для просмотра.",
 };
