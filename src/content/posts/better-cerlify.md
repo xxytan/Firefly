@@ -22,7 +22,7 @@ category: 教程
    ![e.g.](https://roc.us.ci/file/blog/8/1.webp)然后点`添加路由`
 3. 转到你的域名的 **DNS 记录**，添加一个**CNAME**记录：
    - **名称**：刚才路由的子域
-   - **记录**：`*.tencentapp.cn`
+   - **记录**：`zeas.top`
      > [!CAUTION] 替换提醒
      > `*`随便填  
      > 下文依旧
@@ -44,7 +44,7 @@ category: 教程
 6. 再次点`添加记录集`，添加另一个**CNAME**记录：
    - 主机记录：绑定的子域
    - 线路类型：*地域解析 - 中国大陆*
-   - 记录值：`*.tencentapp.cn`
+   - 记录值：`zeas.top`
    ![e.g.](https://roc.us.ci/file/blog/8/7.webp)并点`确定`
 7. 等待记录生效
 
@@ -61,25 +61,27 @@ category: 教程
 ## 效果
 
 :::note
-测速站为[ITDOG](https://www.itdog.cn)  
+测速站：[ITDOG](https://www.itdog.cn)  
+测速模式：网站测速
 测速效果受一定因素影响
+最后更新于**26/4/3**
 :::
 
 <p align="right"><strong>CF Workers</strong></p>
 
-![b.oxue.de](https://roc.us.ci/file/blog/8/cfworkers.webp)
+![b.oxue.de → zeas.top](https://hi.zeas.top/src/img/test/cerlify/cfworkers.webp)
 
 <p align="right"><strong>CF Pages</strong></p>
 
-![roc.us.ci](https://roc.us.ci/file/blog/8/cfpages.webp)
+![roc.us.ci → zeas.top](https://hi.zeas.top/src/img/test/cerlify/cfpages.webp)
 
 <p align="right"><strong>Vercel</strong></p>
 
-![www.oxue.de](https://roc.us.ci/file/blog/8/vercel.webp)
+![www.oxue.de → vercel-cname.xingpingcn.top](https://hi.zeas.top/src/img/test/cerlify/vercel.webp)
 
 <p align="right"><strong>Netlify</strong></p>
 
-![blog.zdsr.cn](https://roc.us.ci/file/blog/8/netlify.webp)
+![blog.zdsr.cn → apex-loadbalancer.netlify.com](https://hi.zeas.top/src/img/test/cerlify/netlify.webp)
 
 ## 其他
 - 优选[Vercel](#vercel)时：
@@ -90,13 +92,13 @@ category: 教程
 
 ### 优选域名
 - CF Workers & Pages:
+  - `zeas.top` **站长维护**
   - `www.shopify.com` *推荐*
   - `mfa.gov.ua` 
   - `www.visa.cn`
   - `*.tencentapp.cn` *推荐*
   - `*.bilibiliapp.cn`
   - `*.cf.090227.xyz` *推荐*
-  - `zeas.top` **站长维护**
 - Vercel:
   - `vercel-cname.xingpingcn.top` *推荐*
   - `cname.vercel-dns.com` *官方；仅必要时*
