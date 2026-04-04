@@ -93,17 +93,16 @@ category: 教程
 ### 优选域名
 - CF Workers & Pages:
   - `zeas.top` **站长维护**
-  - `www.shopify.com` *推荐*
-  - `mfa.gov.ua` 
-  - `www.visa.cn`
-  - `*.tencentapp.cn` *推荐*
+  - `www.shopify.com`
+  - `mfa.gov.ua`
   - `*.bilibiliapp.cn`
-  - `*.cf.090227.xyz` *推荐*
+  - `*.cf.090227.xyz`
 - Vercel:
-  - `vercel-cname.xingpingcn.top` *推荐*
+  - `vercel.zeas.top` **站长维护**
+  - `vercel-cname.xingpingcn.top`
   - `cname.vercel-dns.com` *官方；仅必要时*
 - Netlify
-  - `netlify-cname.xingpingcn.top` *推荐*
+  - `netlify-cname.xingpingcn.top`
   - `apex-loadbalancer.netlify.com` *官方*
 
 > [!TIP] 致谢个人维护者
