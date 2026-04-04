@@ -67,20 +67,9 @@ category: 教程
 最后更新于**26/4/3**
 :::
 
-<p align="right"><strong>CF Workers</strong></p>
-
 ![b.oxue.de → zeas.top](https://hi.zeas.top/src/img/test/cerlify/cfworkers.webp)
-
-<p align="right"><strong>CF Pages</strong></p>
-
-![roc.us.ci → zeas.top](https://hi.zeas.top/src/img/test/cerlify/cfpages.webp)
-
-<p align="right"><strong>Vercel</strong></p>
-
+![www.zeas.top → zeas.top](https://hi.zeas.top/src/img/test/cerlify/cfpages.webp)
 ![www.oxue.de → vercel-cname.xingpingcn.top](https://hi.zeas.top/src/img/test/cerlify/vercel.webp)
-
-<p align="right"><strong>Netlify</strong></p>
-
 ![blog.zdsr.cn → apex-loadbalancer.netlify.com](https://hi.zeas.top/src/img/test/cerlify/netlify.webp)
 
 ## 其他
