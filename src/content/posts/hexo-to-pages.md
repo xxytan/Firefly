@@ -26,10 +26,11 @@ pkg install git&&openssh -y
 git config --global user.name '<username>'
 git config --global user.email '<useremail>'
 ```
-> [!CAUTION] 替换注意
-> `<username>` → *GitHub用户名*\n
-> `<useremail>` → *GitHub绑定邮箱*\n
-> **下文出现依旧**
+:::caution[替换注意]
+`<username>` → *GitHub用户名*  
+`<useremail>` → *GitHub绑定邮箱*  
+**下文出现依旧**
+:::
 
 并回车，以做Git全局配置
 
