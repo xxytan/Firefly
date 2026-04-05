@@ -27,8 +27,8 @@ git config --global user.name '<username>'
 git config --global user.email '<useremail>'
 ```
 > [!CAUTION] 替换注意
-> `<username>` → *GitHub用户名*  
-> `<useremail>` → *GitHub绑定邮箱*  
+> `<username>` → *GitHub用户名*\n
+> `<useremail>` → *GitHub绑定邮箱*\n
 > **下文出现依旧**
 
 并回车，以做Git全局配置
@@ -47,7 +47,11 @@ cat .ssh/id_rsa.pub
 然后打开[SSH and GPG Keys](https://github.com/settings/keys)，往下滑，点`New SSH Key`，照下图填写![1.png](https://roc.us.ci/file/blog/2/1.png)然后点 `Add SSH Key`
 
 # 将代码托管到GitHub仓库
-点[New Repository](https://github.com/new)创建新仓库，仓库名称就按`<username>.github.io`来填，仓库公开私有无所谓![2.png](https://roc.us.ci/file/blog/2/2.png)然后点`Create Repository`
+点[New Repository](https://github.com/new)创建新仓库，仓库名称就按`<username>.github.io`来填，![2.png](https://roc.us.ci/file/blog/2/2.png)
+> [!NOTE]
+> 如果你要部署到**GitHub Pages**，仓库就需要保持公开，否则无所谓
+
+然后点`Create Repository`
 
 ## 初始化仓库
 返回Termux，cd到博客文件夹，然后逐条输入
