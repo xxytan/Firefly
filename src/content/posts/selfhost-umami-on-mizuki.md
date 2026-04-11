@@ -35,7 +35,7 @@ category: 教程
     "password": "Umami密码"
   }
   ```
-- 点蓝色按钮`Send`，稍等片刻，下方就会出现`token`![e.g.](https://roc.us.ci/file/blog/3/1.png)
+- 点蓝色按钮`Send`，稍等片刻，下方就会出现`token`![e.g.](https://non.cn.mt/file/blog/3/1.png)
   完整地复制`token`，并将其暂时储存在某个地方
 
 # 开始
