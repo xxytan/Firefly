@@ -18,30 +18,30 @@ category: 教程
    - **路由**：要绑定的自定义域名
      > [!WARNING] 记得在后面加`/*`
    
-   ![e.g.](https://non.cn.mt/file/blog/8/1.webp)然后点`添加路由`
+   ![e.g.](https://www.zeas.top/api/raw?path=/img/p/5/1.webp)然后点`添加路由`
 3. 转到你的域名的 **DNS 记录**，添加一个**CNAME**记录：
    - **名称**：刚才路由的子域
    - **记录**：`zeas.top`
    - **代理状态**：关闭
      > [!WARNING] 必须的一步！
      
-   ![e.g.](https://non.cn.mt/file/blog/8/2.webp)并保存
+   ![e.g.](https://www.zeas.top/api/raw?path=/img/p/5/2.webp)并保存
 4. 等待记录生效（不会要很久)
 
 ## Cloudflare Pages
 1. 正常绑定你要优选的Pages的域名
-2. 登录[华为云国际](https://console-intl.huaweicloud.com/dns/?region=ap-southeast-1)[^1]，到**公网域名**，点**创建公网域名**，把你的一级域名（主域名）填上![steps](https://non.cn.mt/file/blog/8/3.webp)
-3. 在CF仪表盘添加**NS记录**（每个都要填）![NS records](https://non.cn.mt/file/blog/8/4.webp)
-4. 打开你要优选的Pages项目，复制带`.pages.dev`的域名![5.webp](https://non.cn.mt/file/blog/8/5(1).webp)
+2. 登录[华为云国际](https://console-intl.huaweicloud.com/dns/?region=ap-southeast-1)[^1]，到**公网域名**，点**创建公网域名**，把你的一级域名（主域名）填上![steps](https://www.zeas.top/api/raw?path=/img/p/5/3.webp)
+3. 在CF仪表盘添加**NS记录**（每个都要填）![NS records](https://www.zeas.top/api/raw?path=/img/p/5/4.webp)
+4. 打开你要优选的Pages项目，复制带`.pages.dev`的域名![5.webp](https://www.zeas.top/api/raw?path=/img/p/5/5.webp)
 5. 返回华为云，点`添加记录集`，添加一个**CNAME**记录：
    - 主机记录：绑定的子域
    - 记录值：刚刚复制的`.pages.dev`
-   ![e.g.](https://non.cn.mt/file/blog/8/6(1).webp)并点`确定`
+   ![e.g.](https://www.zeas.top/api/raw?path=/img/p/5/6.webp)并点`确定`
 6. 再次点`添加记录集`，添加另一个**CNAME**记录：
    - 主机记录：绑定的子域
    - 线路类型：*地域解析 - 中国大陆*
    - 记录值：`zeas.top`
-   ![e.g.](https://non.cn.mt/file/blog/8/7.webp)并点`确定`
+   ![e.g.](https://www.zeas.top/api/raw?path=/img/p/5/7.webp)并点`确定`
 7. 等待记录生效
 
 ## Vercel & Netlify
