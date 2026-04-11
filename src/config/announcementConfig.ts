@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "公告",
 
 	// 公告内容
-	content: "已弃用旧图床",
+	content: "已弃用旧图床，若新图床出现问题请及时联系站长！",
 
 	// 是否允许用户关闭公告
 	closable: true,
