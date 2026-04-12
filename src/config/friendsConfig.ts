@@ -38,7 +38,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://2x.nz",
 		tags: ["朋友"],
 		weight: 2,
-		enabled: true,
+		enabled: false,
 	},
 	{
 		title: "寒士杰克",
@@ -119,7 +119,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://amvc.top",
 		tags: ["朋友"],
 		weight: 11,
-		enabled: true
+		enabled: true,
 	},
 	{
 		title: "Lucas的小博客",
@@ -128,7 +128,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://blog.lris625.top",
 		tags: ["朋友"],
 		weight: 12,
-		enabled: true
+		enabled: true,
 	},
 	{
 		title: "小杨blog",
@@ -137,7 +137,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://xiaoyangboke.xyz",
 		tags: ["朋友"],
 		weight: 13,
-		enabled: true
+		enabled: true,
 	},
 	{
 		title: "孟轩科技's blog",
@@ -146,7 +146,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://blog.mxw2024.top",
 		tags: ["朋友"],
 		weight: 14,
-		enabled: true
+		enabled: true,
 	},
 	{
 		title: "G.B.S.A.T.’s Official Blog",
@@ -155,7 +155,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://blog.gbsat.org",
 		tags: ["朋友"],
 		weight: 15,
-		enabled: true
+		enabled: true,
 	},
 	{
 		title: "孟轩网的小站",
@@ -164,7 +164,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://www.mxw2024.top",
 		tags: ["朋友"],
 		weight: 16,
-		enabled: true
+		enabled: false,
 	},
 	{
 		title: "夏夜流萤",
@@ -173,16 +173,16 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://blog.cuteleaf.cn",
 		tags: ["朋友"],
 		weight: 17,
-		enabled: true
+		enabled: true,
 	},
 	{
 		title: "友链展示站",
 		imgurl: "https://peng.you/favicon.ico",
 		desc: "发现优质博客与网站",
 		siteurl: "https://peng.you",
-		tags: ["朋友", "聚合"],
+		tags: ["聚合"],
 		weight: 18,
-		enabled: true
+		enabled: true,
 	},
 ];
 
