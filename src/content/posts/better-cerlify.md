@@ -80,7 +80,7 @@ category: 教程
 ## 其他
 - 优选[Vercel](#vercel)时：
   - 如果你优选的项目是需要**记录访问者IP**（评论系统、统计系统…）的，使用`vercel-cname.xingpingcn.top`这个优选域名会导致IP全跑到CDN节点（台湾)  
-    解决方法就是使用[官方的优选域名](#优选域名)
+    解决方法就是使用[官方默认的泛播域名](#优选域名)
 - 自Cloudflare更新使用条款，**优选IP为违规行为**，后果包括但不限于封禁账号
 - Netlify的IP在部分地区会被阻断，所以尽管效果优选效果看起来很好，加载速度还是会有些慢
 
@@ -102,6 +102,9 @@ category: 教程
 > [!TIP] 致谢个人维护者
 > [邢平cn](https://xingpingcn.top)、[CMLiu](https://blog.cmliussss.com)、ktff
 
+#### 关于站长维护的优选域名
+- `zeas.top`：抓自HostMonit.com，三网优选
+- `vercel.zeas.top`：国内大部分地区走反代SNI节点，少部分走泛播节点；境外一律走泛播节点
 ---
 [^1]: > 华为云仅为示范，其他如阿里云、DNSPod等DNS服务商也能实现此效果      
       
