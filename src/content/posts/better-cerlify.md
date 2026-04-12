@@ -96,15 +96,21 @@ category: 教程
   - `vercel-cname.xingpingcn.top`
   - `cname.vercel-dns.com` *官方；仅必要时*
 - Netlify
+  - `netlify.zeas.top` **站长维护**
   - `netlify-cname.xingpingcn.top`
   - `apex-loadbalancer.netlify.com` *官方*
 
 > [!TIP] 致谢个人维护者
 > [邢平cn](https://xingpingcn.top)、[CMLiu](https://blog.cmliussss.com)、ktff
 
-#### 关于站长维护的优选域名
-- `zeas.top`：抓自HostMonit.com，三网优选
-- `vercel.zeas.top`：国内大部分地区走反代SNI节点，少部分走泛播节点；境外一律走泛播节点
+<p align="right"><strong>关于站长维护的优选域名</strong></p>
+
+|优选域名|关于|
+|-|-|
+|`zeas.top`|抓自[HostMonit.com](https://stock.hostmonit.com)，三网优选|
+|`vercel.zeas.top`|国内大部分地区走反代SNI节点，少部分走泛播节点；境外一律走泛播节点|
+|`netlify.zeas.top`|优选泛播节点➕新加坡节点|
+
 ---
 [^1]: > 华为云仅为示范，其他如阿里云、DNSPod等DNS服务商也能实现此效果      
       
