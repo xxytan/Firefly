@@ -30,6 +30,7 @@
 ## 其他
 - 本站由**Clarity**提供站点统计服务
 - 本站由[Twikoo](https://api.zeas.top/twikoo/)提供文章评论服务
+- 本站背景抓自[第三方API](https://uapis.cn/api/v1/image/bing-daily?resolution=1080)
 - 本站已加入[萌备](https://icp.gov.moe/?keyword=20252235)
 - 本站已加入[中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)  
 - 本站已加入[BlogFinder](https://bf.zzxworld.com/s/1773)

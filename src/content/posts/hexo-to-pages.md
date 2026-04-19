@@ -77,8 +77,7 @@ git push -u origin main
 
 ## GitHub Pages
 > [!NOTE]
-> 利用GitHub Actions部署  
-  ~~国内容易被墙~~  *这段时间好像还挺好？*
+> 利用GitHub Actions部署，大陆容易被墙
 
 ### 开始
 我们在博客文件夹下创建依次创建
@@ -159,7 +158,7 @@ git push
 
 ## Cloudflare Pages
 > [!NOTE]
-> **站长最推荐**，后续可根据CM大大的[优选方法](https://blog.cmliussss.com/p/BestWorkers#%E4%B8%BA-Pages-%E9%A1%B9%E7%9B%AE%E4%BD%BF%E7%94%A8%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D)提升网站访问速度（前提得有域名）
+> **站长最推荐**，后续可参照[此文章](/posts/better-cerlify/#cloudflare-pages)优选而提高在大陆地区访问速度
 
 ### 开始
 登录[Cloudflare 仪表盘](https://dash.cloudflare.com)，
@@ -190,7 +189,7 @@ public # 构建输出目录
 
 ## Vercel
 > [!NOTE]
-> 大陆访问速度还行，后续也可以通过优选提高访问速度，但提升效果不明显，自行搜寻
+> 大陆访问速度还行，后续也可以通过优选提高访问速度，具体方法参考[此文章](/posts/better-cerlify/#vercel--netlify)
 
 ### 开始
 登录[Vercel](https://vercel.com)，*新账号会引导创建团队*，
@@ -230,7 +229,6 @@ public # 构建输出目录
 
 - 其实也可以直接用**hexo-deployer-git**插件一键生成静态资源并部署到仓库，具体请看[官方文档](https://hexo.io/zh-cn/docs/one-command-deployment#Git)，但是我个人不推荐
 - 有考虑专门出一篇文章介绍**如何部署到cf workers**
-- 涉及到`pkg`的命令都可以换成`apt`命令
 
 ---
 [^1]: 先创建`.github`文件夹，再在里面创建`workflows`文件夹，最后在里面创建`pages.yml`文件

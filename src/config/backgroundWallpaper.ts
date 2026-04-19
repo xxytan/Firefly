@@ -39,7 +39,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/b1.avif",
+			// "assets/images/b1.avif",
+			"https://uapis.cn/api/v1/image/bing-daily?resolution=1080",
 			"assets/images/b2.avif",
 			"assets/images/b3.avif",
 			"assets/images/b4.avif",
@@ -47,7 +48,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/b1.avif",
+			// "assets/images/b1.avif",
+			"https://uapis.cn/api/v1/image/bing-daily?resolution=1080",
 			"assets/images/b2.avif",
 			"assets/images/b3.avif",
 			"assets/images/b4.avif",
@@ -152,10 +154,10 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 层级，确保壁纸在背景层
 		zIndex: -1,
 		// 壁纸透明度
-		opacity: 0.65,
+		opacity: 0.78,
 		// 背景模糊程度
-		blur: 1,
+		blur: 4.5,
 		// 卡片背景透明度，0-1之间，值越小越透明
-		cardOpacity: 0.6,
+		cardOpacity: 0.55,
 	},
 };

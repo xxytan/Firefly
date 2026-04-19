@@ -63,5 +63,20 @@ category: 教程
 
 # 结束
 - 使用[方法一](#方法一使用shieldsio)直接引用链接会增加站点的跨域请求，而且在部分地区可能会初见访问失败的情况，建议**将效果矢量图下载到本地然后将其引用到网站中**
+
+## 其他
 - 如果想要使用**带图标的**，下载[此文件](https://www.zeas.top/api/raw?path=/img/moeicp/20252235.svg)并依照[方法二](#方法二使用矢量图)自行替换
-- 如果需要让访客点击徽章就跳转到你的萌备详情页，就需要用到`<a>`标签
+  > [!NOTE] 图标来自[萌备](https://icp.gov.moe/images/gov.svg)
+- 如果需要让访客点击徽章就跳转到你的萌备详情页，需要用到`<a>`标签：
+  ```html title="仅示例.html"
+  <a
+    title="MoeICP"
+    href="https://icp.gov.moe/?keyword=20252235"
+    target="_blank"
+  />
+  <img
+    src="https://www.zeas.top/api/raw?path=/img/moeicp/20252235.svg"
+  />
+  </a>
+  ```
+
