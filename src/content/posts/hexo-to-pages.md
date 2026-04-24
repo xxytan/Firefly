@@ -45,10 +45,10 @@ ssh-keygen -t rsa -C "<useremail>"
 cat .ssh/id_rsa.pub
 ```
 查看公钥，把反出的一大长串复制下来，
-然后打开[SSH and GPG Keys](https://github.com/settings/keys)，往下滑，点`New SSH Key`，照下图填写![](http://img.oxue.de/p/2/1.png)然后点 `Add SSH Key`
+然后打开[SSH and GPG Keys](https://github.com/settings/keys)，往下滑，点`New SSH Key`，照下图填写![](https://www.zeas.top/api/raw?path=/img/p/2/1.png)然后点 `Add SSH Key`
 
 # 将代码托管到GitHub仓库
-点[New Repository](https://github.com/new)创建新仓库，仓库名称就按`<username>.github.io`来填，![](http://img.oxue.de/p/2/2.png)
+点[New Repository](https://github.com/new)创建新仓库，仓库名称就按`<username>.github.io`来填，![](https://www.zeas.top/api/raw?path=/img/p/2/2.png)
 > [!NOTE]
 > 如果你要部署到**GitHub Pages**，仓库就需要保持公开，否则无所谓
 
@@ -140,12 +140,12 @@ jobs:
 
 并保存，
 
-打开仓库设置里的**Pages**，把**Bulid and deployment**下的**Source**从**Deploy from a branch**改为`GitHub Actions`，![](http://img.oxue.de/p/2/3.png)
+打开仓库设置里的**Pages**，把**Bulid and deployment**下的**Source**从**Deploy from a branch**改为`GitHub Actions`，![](https://www.zeas.top/api/raw?path=/img/p/2/3.png)
 返回Termux，输入
 ```bash title="Termux"
 git push --force
 ```
-等待推送完毕，此时我们打开仓库的**Actions**，当一切皆绿时，我们点击**deploy**下面给的类似于 *xxytan.github.io* 地址，就能访问我们的博客啦🎉!![](http://img.oxue.de/p/2/4.png)
+等待推送完毕，此时我们打开仓库的**Actions**，当一切皆绿时，我们点击**deploy**下面给的类似于 *xxytan.github.io* 地址，就能访问我们的博客啦🎉!![](https://www.zeas.top/api/raw?path=/img/p/2/4.png)
 
 ### 绑定域名
 在博客文件夹内创建一个`CNAME`文件，将要绑定的自定义域填入，然后
@@ -153,8 +153,8 @@ git push --force
 git add .
 git push
 ```
-再到你的域名管理商添加**CNAME**记录，值为 `<username>.github.io`![](http://img.oxue.de/p/2/5.png)
-继续到仓库设置的**Pages**，在右侧**Custom domain**下填入前面输入的自定义域，点`Save`，等待下方成**DNS check successful**，能成功访问自定义域就成功啦🎉![](http://img.oxue.de/p/2/6.png)
+再到你的域名管理商添加**CNAME**记录，值为 `<username>.github.io`![](https://www.zeas.top/api/raw?path=/img/p/2/5.png)
+继续到仓库设置的**Pages**，在右侧**Custom domain**下填入前面输入的自定义域，点`Save`，等待下方成**DNS check successful**，能成功访问自定义域就成功啦🎉![](https://www.zeas.top/api/raw?path=/img/p/2/6.png)
 
 ## Cloudflare Pages
 > [!NOTE]
@@ -163,15 +163,15 @@ git push
 ### 开始
 登录[Cloudflare 仪表盘](https://dash.cloudflare.com)，
 
-打开**计算和 AI**下的**Workers and Pages**，点`创建应用程序`，再点下面的`Get started`![](http://img.oxue.de/p/2/7.png)选择 `导入现有的 Git 存储库`，授权一下你的 GitHub，然后选择前面创建的仓库，再按下面的填：
+打开**计算和 AI**下的**Workers and Pages**，点`创建应用程序`，再点下面的`Get started`![](https://www.zeas.top/api/raw?path=/img/p/2/7.png)选择 `导入现有的 Git 存储库`，授权一下你的 GitHub，然后选择前面创建的仓库，再按下面的填：
 ```bash showLineNumbers=false
 npx run build # 构建命令
 public # 构建输出目录
 ```
-然后点`保存并部署`![](http://img.oxue.de/p/2/8.png)等待他部署完成，会给一个 *xxxxx.pages.dev* 的域名，点进去也是能够访问的
+然后点`保存并部署`![](https://www.zeas.top/api/raw?path=/img/p/2/8.png)等待他部署完成，会给一个 *xxxxx.pages.dev* 的域名，点进去也是能够访问的
 
 ### 绑定域名
-打开项目，点 **自定义域** → `设置自定义域`，跟着引导走，等到呈现**活动**状态就能够通过自定义域访问了![](http://img.oxue.de/p/2/9.png)
+打开项目，点 **自定义域** → `设置自定义域`，跟着引导走，等到呈现**活动**状态就能够通过自定义域访问了![](https://www.zeas.top/api/raw?path=/img/p/2/9.png)
 
 ## EdgeOne Pages
 > [!NOTE]
@@ -182,10 +182,10 @@ public # 构建输出目录
 登录[EdgeOne](https://console.tencentcloud.com/edgeone)，
 
 点**Pages** → `创建项目` → `导入 Git 仓库`，授权一下GitHub，  
-选择前面创建的仓库，会自动匹配**框架预设**，我们就直接点`开始部署`就好了![](http://img.oxue.de/p/2/10.png)部署完毕后会有一个 `xxxxx.edgeone.xxx` 域名，三个小时后过期，打开后也是能够访问的
+选择前面创建的仓库，会自动匹配**框架预设**，我们就直接点`开始部署`就好了![](https://www.zeas.top/api/raw?path=/img/p/2/10.png)部署完毕后会有一个 `xxxxx.edgeone.xxx` 域名，三个小时后过期，打开后也是能够访问的
 
 #### 绑定域名
-打开项目，点到**项目设置**，找到`添加自定义域`，跟着引导走就行了，等到`DNS记录`&`证书`都呈现已部署状态就能通过自定义域名访问了![](http://img.oxue.de/p/2/11.png)
+打开项目，点到**项目设置**，找到`添加自定义域`，跟着引导走就行了，等到`DNS记录`&`证书`都呈现已部署状态就能通过自定义域名访问了![](https://www.zeas.top/api/raw?path=/img/p/2/11.png)
 
 ## Vercel
 > [!NOTE]
@@ -195,11 +195,11 @@ public # 构建输出目录
 登录[Vercel](https://vercel.com)，*新账号会引导创建团队*，
 
 点右上角的**Add New…**，选`Project`，授权一下你的GitHub，  
-选择前面创建的仓库，会自动匹配预设，若未自动匹配请自行选择![](http://img.oxue.de/p/2/12.jpg)
+选择前面创建的仓库，会自动匹配预设，若未自动匹配请自行选择![](https://www.zeas.top/api/raw?path=/img/p/2/12.jpg)
 然后点`Deploy`，等待一会就部署好啦，点**Go to Dashboard**，就能看到一个 *xxxxx.vercel.app* 的域名，打开也是能够访问的
 
 ### 绑定域名
-点**Domains**旁的"➕"，![](http://img.oxue.de/p/2/13.jpg)然后点`Add Domain`，输入你想绑定的域名，点`Save`或回车，再把给出的**CNAME**记录vi添加到域名管理商，耐心等待一会，直至呈现可用（**Valid Configuration**）就行啦![](http://img.oxue.de/p/2/14.jpg)
+点**Domains**旁的"➕"，![](https://www.zeas.top/api/raw?path=/img/p/2/13.jpg)然后点`Add Domain`，输入你想绑定的域名，点`Save`或回车，再把给出的**CNAME**记录vi添加到域名管理商，耐心等待一会，直至呈现可用（**Valid Configuration**）就行啦![](https://www.zeas.top/api/raw?path=/img/p/2/14.jpg)
 
 ## Netlify
 > [!NOTE]
@@ -209,15 +209,15 @@ public # 构建输出目录
 登录[Netlify](https://app.netlify.com)，*新账号会引导创建团队*，
 
 点右上角的**Add new project**，选`Import an existing project`，授权一下你的GitHub，  
-选择前面创建的仓库，项目名称（**Project name**）随便。会自动识别并填写关键信息，否则请自行填写![](http://img.oxue.de/p/2/15.png)
+选择前面创建的仓库，项目名称（**Project name**）随便。会自动识别并填写关键信息，否则请自行填写![](https://www.zeas.top/api/raw?path=/img/p/2/15.png)
 部署完成后，打开 *;name.netlify.app* 也是可以访问的
 > [!CAUTION] 替换注意
 > `;name`为**先前设置的项目名称**  
 > **下文出现依旧**
 
 ### 绑定域名
-切到**Domain management**，右边点**Add a domain**下的`Add a domain you already own`，![](http://img.oxue.de/p/2/16.png)
-填入你的域名，然后点`Verify`，会要求进行**TXT域名所有权验证**，我们可以直接点击下方的`Add subdomain`跳过验证![](http://img.oxue.de/p/2/17.webp)
+切到**Domain management**，右边点**Add a domain**下的`Add a domain you already own`，![](https://www.zeas.top/api/raw?path=/img/p/2/16.png)
+填入你的域名，然后点`Verify`，会要求进行**TXT域名所有权验证**，我们可以直接点击下方的`Add subdomain`跳过验证![](https://www.zeas.top/api/raw?path=/img/p/2/17.webp)
 此时到域名管理商添加值为`;name.netlify.app`的**CNAME**记录，解析成功后会自动申请并部署SSL证书
 
 # 结束

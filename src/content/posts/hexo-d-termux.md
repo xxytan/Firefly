@@ -22,9 +22,9 @@ description: 轻松使用Termux部署一个属于自己的博客
 ```bash title="Termux"
 termux-change-repo
 ```
-并回车，此时会出现![这样的界面](http://img.oxue.de/p/1/1.png)
+并回车，此时会出现![这样的界面](https://www.zeas.top/api/raw?path=/img/p/1/1.png)
 
-使用**右下角的方向按钮**操控，选择第二个选项，便会出现![这样的界面](http://img.oxue.de/p/1/2.png)
+使用**右下角的方向按钮**操控，选择第二个选项，便会出现![这样的界面](https://www.zeas.top/api/raw?path=/img/p/1/2.png)
 选带有`tuna`[^1]的空格并回车，等待它自动更新软件包库
 
 # 安装Node.js[^2]
@@ -51,7 +51,7 @@ hexo init <folder>
 
 :::important[Q&A]
 ?: 在`/sdcard`部署不是更方便吗  
-!: 若在`/sdcard`下部署，安装依赖时会提示权限不足，从而无法进行后续步骤![就像这样](http://img.oxue.de/p/1/3.png)
+!: 若在`/sdcard`下部署，安装依赖时会提示权限不足，从而无法进行后续步骤![就像这样](https://www.zeas.top/api/raw?path=/img/p/1/3.png)
 :::
 
 ## 用户差异
@@ -64,14 +64,14 @@ hexo init <folder>
   ```bash title="Termux"
   termux-setup-storage
   ```
-  并授予访问存储权限，然后使用[MT管理器](https://mt2.cn)的`添加本地存储功能`，操作过后就能够方便地使用图形化界面访问`blog`文件夹![操作流程](http://img.oxue.de/p/1/4.gif)
+  并授予访问存储权限，然后使用[MT管理器](https://mt2.cn)的`添加本地存储功能`，操作过后就能够方便地使用图形化界面访问`blog`文件夹![操作流程](https://www.zeas.top/api/raw?path=/img/p/1/4.gif)
 
 ## 测试
 输入
 ```bash title="Termux"
 hexo s
 ```
-运行后[本地4000端口](http://localhost:4000)会映射出内容，在浏览器中打开它，不出所料，你就能看到![这样的页面](http://img.oxue.de/p/1/5.png)
+运行后[本地4000端口](http://localhost:4000)会映射出内容，在浏览器中打开它，不出所料，你就能看到![这样的页面](https://www.zeas.top/api/raw?path=/img/p/1/5.png)
 这就说明你的**Hexo已经部署成功了！**
 
 # 常用的操作命令[^4]
