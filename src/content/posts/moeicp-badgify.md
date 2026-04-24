@@ -6,7 +6,7 @@ tags: ["萌备", "美化", "教程"]
 category: 教程
 ---
 # 前言
-你也想让你的萌备用上漂亮的**徽章**吗![My own MoeICP badge](https://www.zeas.top/api/raw?path=/img/moeicp/20252235.svg)
+你也想让你的萌备用上漂亮的**徽章**吗![My own MoeICP badge](http://img.oxue.de/moeicp/20252235.svg)
 此篇文章我将介绍两种方法来给你的萌备用上美丽的徽章
 
 # 开始
@@ -65,7 +65,7 @@ category: 教程
 - 使用[方法一](#方法一使用shieldsio)直接引用链接会增加站点的跨域请求，而且在部分地区可能会初见访问失败的情况，建议**将效果矢量图下载到本地然后将其引用到网站中**
 
 ## 其他
-- 如果想要使用**带图标的**，下载[此文件](https://www.zeas.top/api/raw?path=/img/moeicp/20252235.svg)并依照[方法二](#方法二使用矢量图)自行替换
+- 如果想要使用**带图标的**，下载[此文件](http://img.oxue.de/moeicp/20252235.svg)并依照[方法二](#方法二使用矢量图)自行替换
   > [!NOTE] 图标来自[萌备](https://icp.gov.moe/images/gov.svg)
 - 如果需要让访客点击徽章就跳转到你的萌备详情页，需要用到`<a>`标签：
   ```html title="仅示例.html"
@@ -75,7 +75,7 @@ category: 教程
     target="_blank"
   />
   <img
-    src="https://www.zeas.top/api/raw?path=/img/moeicp/20252235.svg"
+    src="http://img.oxue.de/moeicp/20252235.svg"
   />
   </a>
   ```
